@@ -1,0 +1,19 @@
+.sample {
+    width:200px;
+    height:200px;
+    background-color: #707070;
+    border: 2px black solid;
+    display: table;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.collectionUL {
+    list-style-type: none;
+}
+.collection {
+    margin-top: 6px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
